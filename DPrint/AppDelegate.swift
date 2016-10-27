@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  DPrint
 //
-//  Created by 51talkAC-Mack on 10/27/16.
+//  Created by MackChan <minhechen@gmail.com> on 10/27/16.
 //  Copyright © 2016 MackChan. All rights reserved.
 //
 

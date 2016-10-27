@@ -14,6 +14,7 @@
 		81862CE01DC1AF9E00D6528D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81862CDE1DC1AF9E00D6528D /* LaunchScreen.storyboard */; };
 		81862CEB1DC1AF9E00D6528D /* DPrintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81862CEA1DC1AF9E00D6528D /* DPrintTests.swift */; };
 		81862CF61DC1AF9E00D6528D /* DPrintUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81862CF51DC1AF9E00D6528D /* DPrintUITests.swift */; };
+		81862D071DC1B01100D6528D /* DPrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81862D061DC1B01100D6528D /* DPrint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		81862CF11DC1AF9E00D6528D /* DPrintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DPrintUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81862CF51DC1AF9E00D6528D /* DPrintUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPrintUITests.swift; sourceTree = "<group>"; };
 		81862CF71DC1AF9E00D6528D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81862D061DC1B01100D6528D /* DPrint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPrint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		81862CD41DC1AF9E00D6528D /* DPrint */ = {
 			isa = PBXGroup;
 			children = (
+				81862D051DC1B01100D6528D /* DPrint */,
 				81862CD51DC1AF9E00D6528D /* AppDelegate.swift */,
 				81862CD71DC1AF9E00D6528D /* ViewController.swift */,
 				81862CD91DC1AF9E00D6528D /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				81862CF71DC1AF9E00D6528D /* Info.plist */,
 			);
 			path = DPrintUITests;
+			sourceTree = "<group>";
+		};
+		81862D051DC1B01100D6528D /* DPrint */ = {
+			isa = PBXGroup;
+			children = (
+				81862D061DC1B01100D6528D /* DPrint.swift */,
+			);
+			path = DPrint;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81862CD81DC1AF9E00D6528D /* ViewController.swift in Sources */,
+				81862D071DC1B01100D6528D /* DPrint.swift in Sources */,
 				81862CD61DC1AF9E00D6528D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,8 +423,10 @@
 		81862CFB1DC1AF9E00D6528D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALTERNATE_OWNER = "MackChan <minhechen@gmail.com>";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DPrint/Info.plist;
+				INSTALL_OWNER = "MackChan <minhechen@gmail.com>";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mackchan.DPrint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,8 +437,10 @@
 		81862CFC1DC1AF9E00D6528D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALTERNATE_OWNER = "MackChan <minhechen@gmail.com>";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DPrint/Info.plist;
+				INSTALL_OWNER = "MackChan <minhechen@gmail.com>";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mackchan.DPrint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
